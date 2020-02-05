@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/channelFragment"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_view_list_black_24dp"
+        android:title="채널" />
+
+    <item
+        android:id="@+id/storyFragment"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/book"
+        android:title="스토리" />
+    <item
+        android:id="@+id/friendsListFragment"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="친구" />
+    <item
+        android:id="@+id/chatFragment"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_chat_black_24dp"
+        android:title="채팅" />
+    <item
+        android:id="@+id/profileFragment"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/settings"
+        android:title="프로필" />
+</menu>
